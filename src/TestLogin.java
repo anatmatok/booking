@@ -22,11 +22,14 @@ public class TestLogin {
 
         // Open the window in full screen mode
         driver.manage().window().maximize();
+
+        //get to the web page
+        driver.get("https://www.booking.com/");
     }
 
     @Test
     public void testSuccessfulLogin() {
-        driver.get("https://www.google.co.il/");
+
 
     }
 
