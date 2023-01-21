@@ -27,6 +27,7 @@ public class TestLogin {
         driver.get("https://www.booking.com/");
     }
 
+
     @Test
     public void testSuccessfulLogin() {
 
